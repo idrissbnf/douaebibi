@@ -350,7 +350,7 @@ with st.container():
         # Display an embedded placeholder image instead of URL (more reliable)
         
         st.markdown('<div style="display: flex; justify-content: center;">', unsafe_allow_html=True)
-        st.image("C://Users//surface//Desktop//douae//WhatsApp Image 2025-04-22 at 15.51.00_0485fd70.jpg", caption="", width=250)
+        st.image("WhatsApp Image 2025-04-22 at 15.51.00_0485fd70.jpg", caption="", width=250)
         st.markdown('</div>', unsafe_allow_html=True)
 
         st.markdown('<div class="heart">❤️</div>', unsafe_allow_html=True)
@@ -657,4 +657,5 @@ st.markdown("""
     // Store preference in local storage
     localStorage.setItem('theme', 'light');
 </script>
+
 """, unsafe_allow_html=True)
